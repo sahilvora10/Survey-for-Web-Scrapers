@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="text-dark">
+
+<head>
+	<script type="text/javascript"> 
+            var uagent = navigator.userAgent.toLowerCase();
+            if (uagent.search("iphone") > -1 || uagent.search("ipad") > -1 
+            || uagent.search("android") > -1 || uagent.search("blackberry") > -1
+            || uagent.search("webos") > -1)
+                window.location.href ="index.html";
+    </script>
+    <style type="text/css">
+    .resp-container {
+    overflow: hidden;
+    padding-top: 56.25%;
+    height: 100%
+    }
+    .text-dark {
+        overflow: hidden;
+    }
+    .resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Wordle Analytics</title>
+    
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+</head>
+
+<body class="text-dark">
+    <nav class="navbar navbar-light navbar-expand-lg bg-white navbar-custom sticky-top" data-aos="slide-up">
+        <div class="container" style="margin-left: 0px;margin-right: 0px; max-width:1600px;"><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarResponsive"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand text-left ml-auto" data-bs-hover-animate="flash" href="#">SWM PROJECT</a>
+            <div class="collapse navbar-collapse text-truncate text-break text-right d-lg-flex align-items-lg-end visible"
+                data-aos="slide-up" id="navbarResponsive">
+                <ul class="nav navbar-nav text-left ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link text-sm-left text-md-left text-lg-left text-xl-left text-dark" data-bs-hover-animate="flash" href="https://www.nytimes.com/games/wordle/index.html"  target="_blank">What is SCRAPY?</a></li>
+                    <!-- <li class="nav-item" role="presentation"><a class="nav-link text-dark" data-bs-hover-animate="flash" href="https://youtu.be/8c_UJwLq8PI"  target="_blank">How was this dashboard created?</a></li> -->
+                    <li class="nav-item" role="presentation"><a class="nav-link text-dark" data-bs-hover-animate="flash" href="https://medium.com/@vorasahil01/how-well-are-you-doing-in-wordle-a2f6b0d096c3"  target="_blank">About Dashboard</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="resp-container">
+        <iframe class="resp-iframe" seamless="seamless" 
+        src = "https://lookerstudio.google.com/embed/reporting/5d9443fd-9bbf-4b58-8038-b944e2f05450/page/3u1MD" scrolling="no" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <footer class="bg-black">
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+</body>
+
+</html>
