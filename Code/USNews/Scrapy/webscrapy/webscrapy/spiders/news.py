@@ -5,15 +5,12 @@ from scrapy.crawler import CrawlerProcess
 class ImdbSpider(scrapy.Spider):
     name = "news"
     def start_requests(self):
-        # count=0
         HEADERS = {
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:67.0) Gecko/20100101 Firefox/67.0',
             'Accept-Encoding': 'gzip, deflate, br',
                     'Connection': 'keep-alive',
         }
         for url in range(1,21):
-            # print(count)
-            count+=1
             yield scrapy.Request(url='https://www.usnews.com/best-graduate-schools/api/search?format=json&program=top-engineering-schools&specialty=eng&_page='+str(url), headers = HEADERS, callback=self.parse)
 
     def parse(self, response):
