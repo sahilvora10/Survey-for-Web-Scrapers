@@ -1,4 +1,4 @@
-# SWMProject
+# Survey for Web Scraping Tools
 
 The exponential growth of data in our daily lives offers businesses an opportunity to gain insights into customer behavior, market trends, and competitive intelligence.
 However, collecting, organizing, and analyzing large volumes of data can be a daunting task.
