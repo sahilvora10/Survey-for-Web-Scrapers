@@ -38,5 +38,5 @@ The repository has been set up with the structure of
 - Evaluations: Relevant evaluations are present in this folder.
 
 To visualize the huge amount of data scraped, we also came up with a interactive dashboard which can be accessed through
-[Interactive Dashboard](https://sahilvora10.github.io/SWMProject/)
+[Interactive Dashboard](https://sahilvora10.github.io/Survey-for-Web-Scrapers/)
 
